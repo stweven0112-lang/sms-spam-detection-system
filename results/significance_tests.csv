@@ -1,0 +1,4 @@
+model_a,model_b,b_(a_correct_b_wrong),c_(a_wrong_b_correct),n_discordant,p_value
+nb,lr,5,17,22,0.016901
+lr,lr_balanced,6,21,27,0.005925
+nb,lr_balanced,7,34,41,2.5e-05

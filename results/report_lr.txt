@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+         ham     0.9689    0.9990    0.9837       966
+        spam     0.9916    0.7919    0.8806       149
+
+    accuracy                         0.9713      1115
+   macro avg     0.9802    0.8955    0.9321      1115
+weighted avg     0.9719    0.9713    0.9699      1115
+
+
+Confusion Matrix (rows=true, cols=pred; labels=[ham, spam]):
+[[965   1]
+ [ 31 118]]

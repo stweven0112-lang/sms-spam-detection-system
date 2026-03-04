@@ -1,0 +1,5 @@
+attack,spam_recall_original,spam_recall_adversarial,drop,drop_pct,evasion_rate
+original,0.9329,0.9329,0.0,0.0,0.0
+leetspeak,0.9329,0.443,0.4899,52.52,0.5252
+spacing,0.9329,0.8456,0.0872,9.35,0.0935
+split_keywords,0.9329,0.9329,0.0,0.0,0.0

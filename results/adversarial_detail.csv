@@ -1,0 +1,97 @@
+model,attack_mode,original_text,attacked_text,pred,spam_prob
+nb,original,WINNER!! Claim your FREE prize now!!!,WINNER!! Claim your FREE prize now!!!,spam,0.901044044237965
+nb,original,Congratulations! You have won a cash reward. Click the link now.,Congratulations! You have won a cash reward. Click the link now.,spam,0.7206970048151602
+nb,original,Free entry in a weekly competition. Text WIN to 87121.,Free entry in a weekly competition. Text WIN to 87121.,spam,0.8408656037758345
+nb,original,URGENT! Your account has been selected for a prize.,URGENT! Your account has been selected for a prize.,spam,0.7130440647357964
+nb,original,You have been selected for a £1000 reward. Call now to claim.,You have been selected for a £1000 reward. Call now to claim.,spam,0.8497943875713337
+nb,original,Claim your free voucher now. Limited time offer!,Claim your free voucher now. Limited time offer!,spam,0.7078915269636297
+nb,original,Congratulations winner! Click here to get your prize.,Congratulations winner! Click here to get your prize.,ham,0.4318303852903688
+nb,original,URGENT! Free tickets available. Reply YES now!,URGENT! Free tickets available. Reply YES now!,ham,0.3686126498639038
+nb,leetspeak,WINNER!! Claim your FREE prize now!!!,WINNER!! Cl@1m y0ur FREE pr1z3 n0w!!!,spam,0.5673104457001208
+nb,leetspeak,Congratulations! You have won a cash reward. Click the link now.,C0ngr@7ul@710n$! Y0u h@v3 w0n @ c@$h r3w@rd. Cl1ck 7h3 l1nk n0w.,ham,0.09433170117949699
+nb,leetspeak,Free entry in a weekly competition. Text WIN to 87121.,Fr33 3n7ry 1n @ w33kly c0mp371710n. T3x7 WIN 70 87121.,ham,0.4599720279375986
+nb,leetspeak,URGENT! Your account has been selected for a prize.,URGENT! Y0ur @cc0un7 h@$ b33n $3l3c73d f0r @ pr1z3.,spam,0.5597835860298807
+nb,leetspeak,You have been selected for a £1000 reward. Call now to claim.,Y0u h@v3 b33n $3l3c73d f0r @ £1000 r3w@rd. C@ll n0w 70 cl@1m.,ham,0.1212148239637769
+nb,leetspeak,Claim your free voucher now. Limited time offer!,Cl@1m y0ur fr33 v0uch3r n0w. L1m173d 71m3 0ff3r!,ham,0.13417096701817355
+nb,leetspeak,Congratulations winner! Click here to get your prize.,C0ngr@7ul@710n$ w1nn3r! Cl1ck h3r3 70 g37 y0ur pr1z3.,ham,0.13417096701817355
+nb,leetspeak,URGENT! Free tickets available. Reply YES now!,URGENT! Fr33 71ck37$ @v@1l@bl3. R3ply YES n0w!,ham,0.2681106577004994
+nb,spacing,WINNER!! Claim your FREE prize now!!!,WI.NN ER!! C.l aim  your FREE prize. n.ow!!!,ham,0.4770895376192921
+nb,spacing,Congratulations! You have won a cash reward. Click the link now.,Congratulat ions! You have wo_n a cash reward.. Cl_ick the link now.,ham,0.32776628403515845
+nb,spacing,Free entry in a weekly competition. Text WIN to 87121.,Free  entry in a weekl_y compe_tition. Text WIN to. 87121.,spam,0.7715980126600819
+nb,spacing,URGENT! Your account has been selected for a prize.,UR.GENT_! Yo.ur ac_count has been sel e cted_ f or a  prize.,ham,0.2568083407234227
+nb,spacing,You have been selected for a £1000 reward. Call now to claim.,You ha_ve been s.ele cted for a £1000 re_ward. Call n.o.w to claim.,ham,0.3116665355282708
+nb,spacing,Claim your free voucher now. Limited time offer!,Claim yo_ur fr_e e  vou_cher now. Limited ti.me o_ffer!,ham,0.05691707890677088
+nb,spacing,Congratulations winner! Click here to get your prize.,Congratul_atio ns winner! Clic_k he re to ge t yo ur p r.ize.,ham,0.03374738907822721
+nb,spacing,URGENT! Free tickets available. Reply YES now!,URGE_NT! Free tick_ets availab.le. Reply  YES. now!,ham,0.19139541638625723
+nb,split_keywords,WINNER!! Claim your FREE prize now!!!,W I N N E R!! C l a i m your F R E E p r i z e now!!!,ham,0.09156336982448203
+nb,split_keywords,Congratulations! You have won a cash reward. Click the link now.,Congratulations! You have won a c a s h r e w a r d. C l i c k the link now.,spam,0.6435484048454156
+nb,split_keywords,Free entry in a weekly competition. Text WIN to 87121.,F r e e entry in a weekly competition. Text WIN to 87121.,spam,0.7655967683880892
+nb,split_keywords,URGENT! Your account has been selected for a prize.,U R G E N T! Your account has been selected for a p r i z e.,ham,0.3309780338263171
+nb,split_keywords,You have been selected for a £1000 reward. Call now to claim.,You have been selected for a £1000 r e w a r d. Call now to c l a i m.,spam,0.5538736771017971
+nb,split_keywords,Claim your free voucher now. Limited time offer!,C l a i m your f r e e voucher now. Limited time offer!,ham,0.21530706340611316
+nb,split_keywords,Congratulations winner! Click here to get your prize.,Congratulations w i n n e r! C l i c k here to get your p r i z e.,ham,0.08873066996417464
+nb,split_keywords,URGENT! Free tickets available. Reply YES now!,U R G E N T! F r e e tickets available. Reply YES now!,ham,0.17859382769643584
+lr,original,WINNER!! Claim your FREE prize now!!!,WINNER!! Claim your FREE prize now!!!,spam,0.8455417140662482
+lr,original,Congratulations! You have won a cash reward. Click the link now.,Congratulations! You have won a cash reward. Click the link now.,spam,0.6211205738125809
+lr,original,Free entry in a weekly competition. Text WIN to 87121.,Free entry in a weekly competition. Text WIN to 87121.,spam,0.51550512058237
+lr,original,URGENT! Your account has been selected for a prize.,URGENT! Your account has been selected for a prize.,spam,0.5229544474856358
+lr,original,You have been selected for a £1000 reward. Call now to claim.,You have been selected for a £1000 reward. Call now to claim.,spam,0.8534538244384697
+lr,original,Claim your free voucher now. Limited time offer!,Claim your free voucher now. Limited time offer!,spam,0.7287537775272999
+lr,original,Congratulations winner! Click here to get your prize.,Congratulations winner! Click here to get your prize.,ham,0.3258889153931229
+lr,original,URGENT! Free tickets available. Reply YES now!,URGENT! Free tickets available. Reply YES now!,spam,0.6172819873342416
+lr,leetspeak,WINNER!! Claim your FREE prize now!!!,WINNER!! Cl@1m y0ur FREE pr1z3 n0w!!!,spam,0.5336629129716272
+lr,leetspeak,Congratulations! You have won a cash reward. Click the link now.,C0ngr@7ul@710n$! Y0u h@v3 w0n @ c@$h r3w@rd. Cl1ck 7h3 l1nk n0w.,ham,0.07819643738860317
+lr,leetspeak,Free entry in a weekly competition. Text WIN to 87121.,Fr33 3n7ry 1n @ w33kly c0mp371710n. T3x7 WIN 70 87121.,ham,0.22873743535452729
+lr,leetspeak,URGENT! Your account has been selected for a prize.,URGENT! Y0ur @cc0un7 h@$ b33n $3l3c73d f0r @ pr1z3.,ham,0.3129436492357856
+lr,leetspeak,You have been selected for a £1000 reward. Call now to claim.,Y0u h@v3 b33n $3l3c73d f0r @ £1000 r3w@rd. C@ll n0w 70 cl@1m.,ham,0.08610228544474248
+lr,leetspeak,Claim your free voucher now. Limited time offer!,Cl@1m y0ur fr33 v0uch3r n0w. L1m173d 71m3 0ff3r!,ham,0.08217691516008174
+lr,leetspeak,Congratulations winner! Click here to get your prize.,C0ngr@7ul@710n$ w1nn3r! Cl1ck h3r3 70 g37 y0ur pr1z3.,ham,0.08217691516008174
+lr,leetspeak,URGENT! Free tickets available. Reply YES now!,URGENT! Fr33 71ck37$ @v@1l@bl3. R3ply YES n0w!,ham,0.20555113328704447
+lr,spacing,WINNER!! Claim your FREE prize now!!!,WIN.NER!! C.laim y_ou.r_ FREE prize n.ow!!!,spam,0.8546398994552424
+lr,spacing,Congratulations! You have won a cash reward. Click the link now.,Congratulations! You have won a c ash r eward. Click_ t he link no w.,ham,0.33318048008661266
+lr,spacing,Free entry in a weekly competition. Text WIN to 87121.,Free entry in a weekly com.peti tion.. Tex.t WIN_ to. 87121.,ham,0.4590111619176841
+lr,spacing,URGENT! Your account has been selected for a prize.,URGENT! Your account has bee.n. selected for a p.ri_z e.,ham,0.41398889854334747
+lr,spacing,You have been selected for a £1000 reward. Call now to claim.,Yo u ha ve been selected for a £1000 reward. Ca_ll now to. claim.,ham,0.4765065225370254
+lr,spacing,Claim your free voucher now. Limited time offer!,Claim your fr.ee vou.cher now. L i_mited ti.me offer!,ham,0.40128727471909786
+lr,spacing,Congratulations winner! Click here to get your prize.,Congra tulations winner! Cl ick h.e re to g.e t y_our pr i.ze.,ham,0.2913155397769725
+lr,spacing,URGENT! Free tickets available. Reply YES now!,URGENT! Free tickets  avai.lable. Reply YES no w!,spam,0.5525687031706169
+lr,split_keywords,WINNER!! Claim your FREE prize now!!!,W I N N E R!! C l a i m your F R E E p r i z e now!!!,spam,0.6895366928911004
+lr,split_keywords,Congratulations! You have won a cash reward. Click the link now.,Congratulations! You have won a c a s h r e w a r d. C l i c k the link now.,spam,0.5431820913962577
+lr,split_keywords,Free entry in a weekly competition. Text WIN to 87121.,F r e e entry in a weekly competition. Text WIN to 87121.,ham,0.3634993553870788
+lr,split_keywords,URGENT! Your account has been selected for a prize.,U R G E N T! Your account has been selected for a p r i z e.,ham,0.32066395567994543
+lr,split_keywords,You have been selected for a £1000 reward. Call now to claim.,You have been selected for a £1000 r e w a r d. Call now to c l a i m.,spam,0.7496918519390651
+lr,split_keywords,Claim your free voucher now. Limited time offer!,C l a i m your f r e e voucher now. Limited time offer!,ham,0.412236462007129
+lr,split_keywords,Congratulations winner! Click here to get your prize.,Congratulations w i n n e r! C l i c k here to get your p r i z e.,ham,0.1903713389143037
+lr,split_keywords,URGENT! Free tickets available. Reply YES now!,U R G E N T! F r e e tickets available. Reply YES now!,ham,0.2999802185663174
+lr_balanced,original,WINNER!! Claim your FREE prize now!!!,WINNER!! Claim your FREE prize now!!!,spam,0.961772015931814
+lr_balanced,original,Congratulations! You have won a cash reward. Click the link now.,Congratulations! You have won a cash reward. Click the link now.,spam,0.8836025119578981
+lr_balanced,original,Free entry in a weekly competition. Text WIN to 87121.,Free entry in a weekly competition. Text WIN to 87121.,spam,0.79722667620363
+lr_balanced,original,URGENT! Your account has been selected for a prize.,URGENT! Your account has been selected for a prize.,spam,0.8083936822459401
+lr_balanced,original,You have been selected for a £1000 reward. Call now to claim.,You have been selected for a £1000 reward. Call now to claim.,spam,0.9671646331612226
+lr_balanced,original,Claim your free voucher now. Limited time offer!,Claim your free voucher now. Limited time offer!,spam,0.922013631055295
+lr_balanced,original,Congratulations winner! Click here to get your prize.,Congratulations winner! Click here to get your prize.,spam,0.5996090058018819
+lr_balanced,original,URGENT! Free tickets available. Reply YES now!,URGENT! Free tickets available. Reply YES now!,spam,0.8644085136299409
+lr_balanced,leetspeak,WINNER!! Claim your FREE prize now!!!,WINNER!! Cl@1m y0ur FREE pr1z3 n0w!!!,spam,0.8149831114545563
+lr_balanced,leetspeak,Congratulations! You have won a cash reward. Click the link now.,C0ngr@7ul@710n$! Y0u h@v3 w0n @ c@$h r3w@rd. Cl1ck 7h3 l1nk n0w.,ham,0.1798609506268803
+lr_balanced,leetspeak,Free entry in a weekly competition. Text WIN to 87121.,Fr33 3n7ry 1n @ w33kly c0mp371710n. T3x7 WIN 70 87121.,ham,0.48491267094201407
+lr_balanced,leetspeak,URGENT! Your account has been selected for a prize.,URGENT! Y0ur @cc0un7 h@$ b33n $3l3c73d f0r @ pr1z3.,spam,0.5817569472827759
+lr_balanced,leetspeak,You have been selected for a £1000 reward. Call now to claim.,Y0u h@v3 b33n $3l3c73d f0r @ £1000 r3w@rd. C@ll n0w 70 cl@1m.,ham,0.18735267695359376
+lr_balanced,leetspeak,Claim your free voucher now. Limited time offer!,Cl@1m y0ur fr33 v0uch3r n0w. L1m173d 71m3 0ff3r!,ham,0.18972042925877033
+lr_balanced,leetspeak,Congratulations winner! Click here to get your prize.,C0ngr@7ul@710n$ w1nn3r! Cl1ck h3r3 70 g37 y0ur pr1z3.,ham,0.18972042925877033
+lr_balanced,leetspeak,URGENT! Free tickets available. Reply YES now!,URGENT! Fr33 71ck37$ @v@1l@bl3. R3ply YES n0w!,ham,0.4203561060494533
+lr_balanced,spacing,WINNER!! Claim your FREE prize now!!!,WINNER!! Claim your  FREE priz e now!!!,spam,0.9385032241428812
+lr_balanced,spacing,Congratulations! You have won a cash reward. Click the link now.,Cong.rat ulations! You have won a cash rewa_rd. Clic k t he link now.,spam,0.824029022744486
+lr_balanced,spacing,Free entry in a weekly competition. Text WIN to 87121.,Free entry in a week_ly competition. Text WIN t_o 87121.,spam,0.8166957363832261
+lr_balanced,spacing,URGENT! Your account has been selected for a prize.,U.R.G ENT! Your account has  been s ele cte d fo_r a prize.,spam,0.594461739582115
+lr_balanced,spacing,You have been selected for a £1000 reward. Call now to claim.,You have been. selected f.or a £1000 reward. Ca_ll now to claim.,spam,0.9050261046800665
+lr_balanced,spacing,Claim your free voucher now. Limited time offer!,C laim you.r free voucher now. Li mited tim_e. offer!,spam,0.7725612392386348
+lr_balanced,spacing,Congratulations winner! Click here to get your prize.,C ongratulati ons w_i.nner! Click here to get your. pr.i ze.,ham,0.3777653615118204
+lr_balanced,spacing,URGENT! Free tickets available. Reply YES now!,U.RG_ENT! Free tickets a v.ailab_le . Repl_y YES now!,spam,0.6522218468816989
+lr_balanced,split_keywords,WINNER!! Claim your FREE prize now!!!,W I N N E R!! C l a i m your F R E E p r i z e now!!!,spam,0.9119849476133164
+lr_balanced,split_keywords,Congratulations! You have won a cash reward. Click the link now.,Congratulations! You have won a c a s h r e w a r d. C l i c k the link now.,spam,0.8432376655808673
+lr_balanced,split_keywords,Free entry in a weekly competition. Text WIN to 87121.,F r e e entry in a weekly competition. Text WIN to 87121.,spam,0.6648797556893363
+lr_balanced,split_keywords,URGENT! Your account has been selected for a prize.,U R G E N T! Your account has been selected for a p r i z e.,spam,0.6323932510156176
+lr_balanced,split_keywords,You have been selected for a £1000 reward. Call now to claim.,You have been selected for a £1000 r e w a r d. Call now to c l a i m.,spam,0.934968296043615
+lr_balanced,split_keywords,Claim your free voucher now. Limited time offer!,C l a i m your f r e e voucher now. Limited time offer!,spam,0.7391695622524671
+lr_balanced,split_keywords,Congratulations winner! Click here to get your prize.,Congratulations w i n n e r! C l i c k here to get your p r i z e.,ham,0.3911742986557286
+lr_balanced,split_keywords,URGENT! Free tickets available. Reply YES now!,U R G E N T! F r e e tickets available. Reply YES now!,spam,0.5973824183736333

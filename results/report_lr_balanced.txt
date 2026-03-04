@@ -1,0 +1,23 @@
+Model: lr_balanced
+Accuracy: 0.9848
+Macro-F1: 0.9668
+Spam Precision: 0.9521
+Spam Recall: 0.9329
+Spam F1: 0.9424
+ROC-AUC: 0.9896
+PR-AUC (AP): 0.9735
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham     0.9897    0.9928    0.9912       966
+        spam     0.9521    0.9329    0.9424       149
+
+    accuracy                         0.9848      1115
+   macro avg     0.9709    0.9628    0.9668      1115
+weighted avg     0.9847    0.9848    0.9847      1115
+
+
+Confusion Matrix (rows=true, cols=pred; labels=[ham, spam]):
+[[959   7]
+ [ 10 139]]

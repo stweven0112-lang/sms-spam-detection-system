@@ -1,0 +1,17 @@
+mode,text,pred,spam_prob
+original,WINNER!! Claim your FREE prize now!!!,spam,0.8455417140662482
+leetspeak,WINNER!! Cl@1m y0ur FREE pr1z3 n0w!!!,spam,0.5336629129716272
+spacing,WI.NN ER!! C.l aim  your FREE prize. n.ow!!!,spam,0.5707267982925882
+split_keywords,W I N N E R!! C l a i m your F R E E p r i z e now!!!,spam,0.6895366928911004
+original,Congratulations! You have won a cash reward. Click the link now.,spam,0.6211205738125809
+leetspeak,C0ngr@7ul@710n$! Y0u h@v3 w0n @ c@$h r3w@rd. Cl1ck 7h3 l1nk n0w.,ham,0.07819643738860317
+spacing,Congratulat ions! You have wo_n a cash reward.. Cl_ick the link now.,ham,0.46314696928099414
+split_keywords,Congratulations! You have won a cash reward. Click the link now.,spam,0.6211205738125809
+original,Free entry in a weekly competition. Text WIN to 87121.,spam,0.51550512058237
+leetspeak,Fr33 3n7ry 1n @ w33kly c0mp371710n. T3x7 WIN 70 87121.,ham,0.22873743535452729
+spacing,Free  entry in a weekl_y compe_tition. Text WIN to. 87121.,spam,0.5534127201484699
+split_keywords,F r e e entry in a weekly competition. Text WIN to 87121.,ham,0.3634993553870788
+original,URGENT! Your account has been selected for a prize.,spam,0.5229544474856358
+leetspeak,URGENT! Y0ur @cc0un7 h@$ b33n $3l3c73d f0r @ pr1z3.,ham,0.3129436492357856
+spacing,UR.GENT_! Yo.ur ac_count has been sel e cted_ f or a  prize.,ham,0.4582863606225221
+split_keywords,URGENT! Your account has been selected for a p r i z e.,ham,0.41530515161035486

@@ -1,0 +1,13 @@
+model,attack_mode,original_spam_recall,adversarial_spam_recall,recall_drop,drop_pct,evasion_rate,n_samples
+nb,original,0.75,0.75,0.0,0.0,0.0,8
+nb,leetspeak,0.75,0.25,0.5,66.67,0.6667,8
+nb,spacing,0.75,0.125,0.625,83.33,0.8333,8
+nb,split_keywords,0.75,0.375,0.375,50.0,0.5,8
+lr,original,0.875,0.875,0.0,0.0,0.0,8
+lr,leetspeak,0.875,0.125,0.75,85.71,0.8571,8
+lr,spacing,0.875,0.25,0.625,71.43,0.7143,8
+lr,split_keywords,0.875,0.375,0.5,57.14,0.5714,8
+lr_balanced,original,1.0,1.0,0.0,0.0,0.0,8
+lr_balanced,leetspeak,1.0,0.25,0.75,75.0,0.75,8
+lr_balanced,spacing,1.0,0.875,0.125,12.5,0.125,8
+lr_balanced,split_keywords,1.0,0.875,0.125,12.5,0.125,8
