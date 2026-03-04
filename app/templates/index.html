@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMS Spam Detection System</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            height: 140px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 12px;
+            padding: 10px 18px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 6px;
+        }
+
+        .spam {
+            background-color: #ffe6e6;
+            border: 1px solid #ff4d4d;
+            color: #b30000;
+        }
+
+        .ham {
+            background-color: #e6ffe6;
+            border: 1px solid #33cc33;
+            color: #006600;
+        }
+
+        .prob {
+            margin-top: 8px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>SMS Spam Detection System</h1>
+
+<form method="POST">
+    <textarea name="message" placeholder="Paste an SMS message here...">{{ message }}</textarea>
+    <br>
+    <button type="submit">Check Message</button>
+</form>
+
+{% if label %}
+    {% if label == "spam" %}
+        <div class="result spam">
+            <strong>Result:</strong> SPAM 🚫
+            {% if spam_prob is not none %}
+                <div class="prob">
+                    Spam probability: {{ (spam_prob * 100) | round(2) }}%
+                </div>
+            {% endif %}
+        </div>
+    {% else %}
+        <div class="result ham">
+            <strong>Result:</strong> HAM (Legitimate) ✅
+            {% if spam_prob is not none %}
+                <div class="prob">
+                    Spam probability: {{ (spam_prob * 100) | round(2) }}%
+                </div>
+            {% endif %}
+        </div>
+    {% endif %}
+{% endif %}
+
+</body>
+</html>
